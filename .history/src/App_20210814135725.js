@@ -6,13 +6,29 @@ import Layout from "./components/Layout";
 import Form from "./components/Form";
 import "./App.css";
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#fefefe",
+    },
+    secondary: purple,
+  },
+  typography: {
+    fontFamily: "Quicksand",
+    fontWeightLight: 400,
+    fontWeightRegular: 500,
+    fontWeightMedium: 600,
+    fontWeightBold: 700,
+  },
+});
+
 function App() {
   console.log("hi");
   return (
-    <Container>
+    <ThemeProvider maxWidth="sm">
       <Layout />
       <Form />
-    </Container>
+    </ThemeProvider>
   );
 }
 

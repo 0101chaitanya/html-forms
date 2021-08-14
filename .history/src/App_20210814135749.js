@@ -9,10 +9,10 @@ import "./App.css";
 function App() {
   console.log("hi");
   return (
-    <Container>
+    <ThemeProvider>
       <Layout />
       <Form />
-    </Container>
+    </ThemeProvider>
   );
 }
 

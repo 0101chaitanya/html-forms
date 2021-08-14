@@ -1,4 +1,4 @@
-import { Container, createTheme, ThemeProvider } from "@material-ui/core";
+import { Container, ThemeProvider } from "@material-ui/core";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 

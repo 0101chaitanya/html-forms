@@ -1,4 +1,4 @@
-import { Container, createTheme, ThemeProvider } from "@material-ui/core";
+import { Container, ThemeProvider } from "@material-ui/core";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
@@ -10,7 +10,6 @@ function App() {
   console.log("hi");
   return (
     <Container>
-      <Layout />
       <Form />
     </Container>
   );

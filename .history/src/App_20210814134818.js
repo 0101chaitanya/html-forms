@@ -1,4 +1,4 @@
-import { Container, createTheme, ThemeProvider } from "@material-ui/core";
+import { Container, ThemeProvider } from "@material-ui/core";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   console.log("hi");
   return (
-    <Container>
+    <Container maxWidth="sm">
       <Layout />
       <Form />
     </Container>
